@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+  
+ <head>
+ <title>Complete Responsive website using Bootstrap 5</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head> 
+ 
+<body>
+
+<header>
+<nav class="navbar navbar-expand-lg navbar-light px-4  border-bottom">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-2" href="#">Click_<span class="text-primary">Moment</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
+          <li class="nav-item">
+            <a class="nav-link active text-primary" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link " href="#services" >Services</a>
+          
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#"id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Gallery
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#wed">Wedding Photography</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#pre">Pre-Wedding Photography</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#fash">Fashion Photography</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#feed">Feeding Ceremony</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#wild">Wild-Life Photography</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#natu">Nature Photography</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#con">Contact</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+    
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      
+      
+    
+    </div>
+    <div class="carousel-inner ">
+      <div class="carousel-item active py-5">
+        <img src="image/w3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item ">
+        <img src="image/f14.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="image/13.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+
+  
+      <div class="carousel-item">
+        <img src="image/n1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+
+       <div class="carousel-item">
+        <img src="image/17.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+</header>
+<section class="about my-5">
+    <div class="container" id="about">
+        <div class="text-center my-5">
+          <style>
+          body{
+            background-image: url('image/1.jpg');
+            background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+          }
+          </style>
+            <h1>About <span class="text-primary">Me</span></h1>
+            <hr / class="w-25 m-auto">
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-lg-6 col-12">
+        
+                <h1>What Do <span class="text-primary">You Want to know?</span></h1>
+                    <p class="p-2">My name is Arup Kumar Mondal, and I'm passionate about photography. I started taking photos as a kid and got my first SLR at 15. I started my career shooting high school games , Friends photos,And some Fashion shooting . Through that experience, I had the opportunity to work with a talented photographer who took me under her wing and gave me so many opportunities to grow as a photographer.</p>
+                
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end">
+                <img src="image/i2.jpg " class="img-fluid img-thumbnail">
+        </div>
+        </div>
+       
+        </div>
+       
+</section>
+
+
+
+<section class="services py-5 ">
+<div class="container">
+  <div class="text-center my-5" id="services">
+    <h1>Our <span class="text-primary">Services</span></h1>
+    <hr / class="w-25 m-auto">
+</div>
+<div class="row text-white">
+<div class="col-sm-12 col-md-4 col-lg-4 col-12">
+  <div class="card" style="width: 16rem;">
+    <img src="image/w10.jpg" class="card-img-top" alt="text">
+    <div class="card-body">
+      <p class="card-text">Wedding Photography.</p>
+    </div>
+  </div>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-4 col-12">
+<div class="card" style="width: 16rem;">
+    <img src="image/p1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Pre-Wedding Photography.</p>
+    </div>
+  </div>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-4 col-12">
+  <div class="card" style="width: 16rem;">
+    <img src="image/f9.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Fashion Photography.</p>
+    </div>
+  </div>
+</div>
+</div>
+<div class="row my-5 text-white">
+<div class="col-sm-12 col-md-4 col-lg-4 col-12">
+  <div class="card" style="width: 16rem;">
+    <img src="image/feed1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Feeding-Ceremony Photography</p>
+    </div>
+  </div>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-4 col-12">
+
+  <div class="card" style="width: 16rem;">
+    <img src="image/wi14.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Wild-Life Photography</p>
+    </div>
+  </div>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-4 col-12">
+
+  <div class="card" style="width: 16rem;">
+    <img src="image/n11.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Nature Photography.</p>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+
+<section class="gallery py-5 ">
+  <div class="container">
+    <div class="text-center my-5">
+      <h2><span class="text-primary">Gallery</span></h2>
+      <hr / class="w-25 m-auto">
+      <br>
+
+      <h1><span class="text my-5" id="wed">Wedding Photography</span></h1>
+    
+
+      <div class="images-container">
+        <div class="image">
+            <img src="image/w1.jpeg" alt="">
+        </div>
+        <div class="image">
+            <img src="image/w2.jpeg" alt="">
+        </div>
+        <div class="image">
+            <img src="image/w3.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="image/w4.jpeg" alt="">
+        </div>
+        <div class="image">
+            <img src="image/w5.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="image/w6.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="image/w7.jpg" alt="">
+        </div>
+        <div class="image">
+          <img src="image/w8.jpg" alt="">
+      </div>
+      <div class="image">
+        <img src="image/w9.jpg" alt="">
+    </div>
+      
+  </div>
+<button class="load-more1" >Load More</button>
+<script>
+  $(document).ready(function(){
+$(".image").slice(0, 3).fadeIn();
+$(".load-more1").click(function(){
+  $(".image").slice(0, 9).fadeIn();
+  $(this).fadeOut();
+});
+  });
+</script>
+
+
+
+  
+
+<br>
+<h1><span class="text" id="pre">Pre-Wedding Photography</span></h1>
+      
+      <div class="images-container">
+        <div class="image">
+            <img src="image/p5.jpeg" alt="">
+        </div>
+        <div class="image">
+            <img src="image/p2.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="image/p3.jpg" alt="">
+        </div>
+        <div class="image">
+          <img src="image/p4.jpg" alt="">
+      </div>
+        
+      <div class="image">
+        <img src="image/p1.jpg" alt="">
+    </div>
+    <div class="image">
+      <img src="image/p6.jpeg" alt="">
+  </div>
+</div>
+    
+<button class="load-more2" >Load More</button>
+<script>
+  $(document).ready(function(){
+$(".image").slice(9, 12).fadeIn();
+$(".load-more2").click(function(){
+  $(".image").slice(0, 15).fadeIn();
+  $(this).fadeOut();
+});
+  });
+</script>
+
+<br>
+<h1><span class="text" id="fash">Fashion Photography</span></h1>
+      
+      <div class="images-container">
+        <div class="image">
+            <img src="image/f1.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="image/f2.jpeg" alt="">
+        </div>
+        <div class="image">
+            <img src="image/f3.jpeg" alt="">
+        </div>
+        <div class="image">
+            <img src="image/f15.jpeg" alt="">
+        </div>
+        <div class="image">
+            <img src="image/f5.jpeg" alt="">
+        </div>
+        <div class="image">
+            <img src="image/f6.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="image/f7.jpg" alt="">
+        </div>
+        <div class="image">
+          <img src="image/f8.jpg" alt="">
+      </div>
+      <div class="image">
+        <img src="image/f9.jpeg" alt="">
+    </div>
+    
+  </div>
+<button class="load-more3">Load More</button>
+<script>
+  $(document).ready(function(){
+$(".image").slice(15, 18).fadeIn();
+$(".load-more3").click(function(){
+  $(".image").slice(16, 24).fadeIn();
+  $(this).fadeOut();
+});
+  });
+</script>
+  
+<br>
+<h1><span class="text" id="feed">Feeding-Ceremony Photography</span></h1>
+      
+      <div class="images-container">
+        <div class="image">
+            <img src="image/" alt="">
+        </div>
+        <div class="image">
+            <img src="image/" alt="">
+        </div>
+        <div class="image">
+            <img src="image" alt="">
+        </div>
+        <div class="image">
+            <img src="image/" alt="">
+        </div>
+        <div class="image">
+            <img src="image/" alt="">
+        </div>
+        <div class="image">
+            <img src="image/" alt="">
+        </div>
+      </div>
+    
+<button class="load-more4">Load More</button>
+<script>
+  $(document).ready(function(){
+$(".image").slice(24, 27).fadeIn();
+$(".load-more4").click(function(){
+  $(".image").slice(25, 30).fadeIn();
+  $(this).fadeOut();
+});
+  });
+</script>
+
+<br>
+<h1><span class="text my-5" id="wild">Wild-Life Photography</span></h1>
+    
+      <div class="images-container">
+        <div class="image">
+            <img src="image/wi1.jpeg" alt="">
+        </div>
+        <div class="image">
+            <img src="image/wi2.jpeg" alt="">
+        </div>
+        <div class="image">
+            <img src="image/wi3.jpeg" alt="">
+        </div>
+        <div class="image">
+            <img src="image/wi4.jpeg" alt="">
+        </div>
+        <div class="image">
+            <img src="image/wi5.jpeg" alt="">
+        </div>
+        <div class="image">
+            <img src="image/wi6.jpeg" alt="">
+        </div>
+        <div class="image">
+            <img src="image/wi7.jpeg" alt="">
+        </div>
+      </div>
+    
+<button class="load-more5">Load More</button>
+<script>
+  $(document).ready(function(){
+$(".image").slice(30, 33).fadeIn();
+$(".load-more5").click(function(){
+  $(".image").slice(31, 37).fadeIn();
+  $(this).fadeOut();
+});
+  });
+</script>
+
+
+<br>
+<h1><span class="text " id="natu">Nature Photography</span></h1>
+      <hr / class="w-25 m-auto">
+      <div class="images-container">
+        <div class="image">
+            <img src="image/n1.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="image/n11.jpeg" alt="">
+        </div>
+        <div class="image">
+            <img src="image/n3.jpeg" alt="">
+        </div>
+        <div class="image">
+            <img src="image/n10.jpeg" alt="">
+        </div>
+        <div class="image">
+            <img src="image/n5.jpeg" alt="">
+        </div>
+        <div class="image">
+            <img src="image/n6.jpeg" alt="">
+        </div>
+        <div class="image">
+            <img src="image/n7.jpeg" alt="">
+        </div>
+
+      </div>
+<button class="load-more6">Load More</button>
+<script>
+  $(document).ready(function(){
+$(".image").slice(37, 40).fadeIn();
+$(".load-more6").click(function(){
+  $(".image").slice(37, 50).fadeIn();
+  $(this).fadeOut();
+});
+  });
+</script>
+
+
+      </div>
+</div>
+</section>
+<form>
+<section class="contact">
+  <div class="container" id="con">
+    <div class="text-center my-5">
+      <h1><span class="text-primary">Contact</span></h1>
+      <hr / class="w-25 m-auto">
+      <h1></h1>
+  <h1 class="text-center1 w-responsive mx-auto mb-5">Impress enough? Please do not hesitate to contact us directly. 
+    <br>Our team will come back to you within
+      a matter of hours to help you.</h1>
+
+  <div class="row">
+
+    
+      <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="name" name="name" class="form-control">
+                          <label for="name" class="text2">Your name</label>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="email" name="email" class="form-control">
+                          <label for="email" class="text2">Your email</label>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+
+                <div class="col-md-3">
+                  <div class="md-form mb-0">
+                     
+                      
+                  </div>
+              </div>
+
+              <div class="col-md-1">
+                <div class="md-form mb-0">
+                    <input type="text" id="mobile" name="mobile" class="form-control">
+                    <label for="mobile" class="text2">+91</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+              <div class="md-form mb-0">
+                  <input type="text" id="mobile" name="mobile" class="form-control">
+                  <label for="mobile" class="text2">Mobile Number</label>
+              </div>
+          </div>
+
+
+              </div>
+<div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                          <input type="text" id="subject" name="subject" class="form-control">
+                          <label for="subject" class="text2">Subject</label>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+
+                      <div class="md-form">
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          <label for="message" class="text2">Your message</label>
+                      </div>
+
+                  </div>
+              </div>
+
+          </form>
+          <br>
+
+          <div class="text-center text-md-left">
+              <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+              <input type="submit" value="Submit">
+          </div>
+        </form>
+
+
+          <div class="status"></div>
+      </div>
+      <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-map-marker-alt fa-2x"></i></li>
+                  <p><span class="add">Location:-</span><br>
+                 Raghunathganj,<br>Murshidabad,<br>742227(W.B),India</p>
+              </li>
+              <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                  <p>Mobile Number:-<br>+91 8116474103</p>
+              </li>
+
+              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                  <p>Email Id-iarupkrmondal@gmail.com</p>
+              </li>
+          </ul>
+      </div>
+
+  </div>
+
+</section>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
